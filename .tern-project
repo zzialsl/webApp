@@ -1,0 +1,13 @@
+{
+  "libs": [
+    "browser",
+    "../wxapp"
+  ],
+  "loadEagerly": [
+  ],
+  "plugins": {
+    "doc_comment": {},
+    "es_modules": {},
+    "commonjs": {}
+  }
+}

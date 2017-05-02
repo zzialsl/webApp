@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/comming/comming",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "black",
+    "navigationBarTitleText": "正在热映",
+    "navigationBarTextStyle": "black",
+     "navigationBarBackgroundColor": "#E93030",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "正在热映",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png"
+      },
+      {
+        "pagePath": "pages/comming/comming",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png",
+        "text": "即将上映"
+      }
+    ]
+  }
+}
